@@ -1,0 +1,25 @@
+h1{
+    background-color: rebeccapurple;
+}
+*{
+    /* margin: 0%; */
+}
+p{
+    background-color: red;
+    width: 70%;
+}
+#forth{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.rong, .lal, .kalo{
+    color: yellow;
+}
+
+input[type=password]{
+    color: red;
+}
+p>span{
+    color: green;
+    font-size: 50px;
+}
