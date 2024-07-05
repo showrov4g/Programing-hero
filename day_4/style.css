@@ -1,6 +1,7 @@
 .parent{
     padding: 25px;
     background-color: rgb(180, 187, 181);
+    display: flex;
 }
 .child{
     border: 2px solid rgb(15, 158, 160);
@@ -8,5 +9,4 @@
     padding: 20px;
     font-size: 28px;
     margin: 10px 0;
-    display: inline;
 }
