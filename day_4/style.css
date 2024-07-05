@@ -2,6 +2,7 @@
     padding: 25px;
     background-color: rgb(180, 187, 181);
     display: flex;
+    gap: 30px;
 }
 .child{
     border: 2px solid rgb(15, 158, 160);
