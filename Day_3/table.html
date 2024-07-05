@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,16 +12,32 @@
         table th, td{
             border: 2px solid green;
         } */
-        table{
+        table {
             border-collapse: collapse;
         }
-        table td{
+
+        table td,
+        th {
             border: 1px solid red;
         }
     </style>
 </head>
+
 <body>
-    
+
+    <!-- header area  -->
+    <header>
+
+        <nav>
+            <ul>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+            </ul>
+        </nav>
+
+    </header>
     <!-- making a table  -->
     <table>
         <tr>
@@ -56,20 +73,21 @@
 
     </table>
     <br>
-    <br> 
     <br>
-        <!-- making second table  -->
+    <br>
+    <!-- making second table  -->
     <table>
+        <caption>This is a table</caption>
         <thead>
-
+            <tr>
+                <th>No</th>
+                <th>Full Name</th>
+                <th>Position</th>
+                <th>Salary</th>
+            </tr>
         </thead>
         <tbody>
-            <tr>
-                <td>No</td>
-                <td>Full Name</td>
-                <td>Position</td>
-                <td>Salary</td>
-            </tr>
+
             <tr>
                 <td>1</td>
                 <td>Bill Get</td>
@@ -96,11 +114,14 @@
             </tr>
         </tbody>
         <tfoot>
-
+            <tr>
+                <td colspan="4">This is employee Salary sheet</td>
+            </tr>
         </tfoot>
     </table>
 
 
 
 </body>
+
 </html>
