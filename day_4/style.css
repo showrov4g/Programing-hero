@@ -4,6 +4,8 @@
     display: flex;
     gap: 30px;
     justify-content: space-between;
+    height: 350px;
+    align-items: start;
 }
 .child{
     border: 2px solid rgb(15, 158, 160);
