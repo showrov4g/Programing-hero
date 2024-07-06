@@ -119,6 +119,7 @@
     margin-top: 30px;
     display: flex;
     justify-content: space-around;
+    font-family: Work Sans;
 }
 
 .card {
@@ -140,7 +141,6 @@
 
 .card .shop {
     color: rgb(16, 16, 16);
-    font-family: Work Sans;
     font-size: 16px;
     font-weight: 600;
     line-height: 28px;
@@ -153,7 +153,6 @@
 
 .card p {
     color: rgb(16, 16, 16);
-    font-family: Work Sans;
     font-size: 13px;
     font-weight: 500;
     line-height: 15px;
