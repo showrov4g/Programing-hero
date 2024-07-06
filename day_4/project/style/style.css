@@ -67,9 +67,39 @@
     border-radius: 8px;
     background: rgb(82, 195, 3);
     border-radius: 8px;
-    border: none; 
+    border: none;
     margin: 20px 0px;
 }
-.btn-content{
+
+.btn-content {
     text-align: center;
+}
+
+/* hero section design end  */
+
+/* card section design start  */
+#card-box {
+    width: 885px;
+    margin: 50px auto;
+}
+
+#card-box .title {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+#card-box .title .subtitle {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.6;
 }
