@@ -83,7 +83,7 @@
     margin: 50px auto;
 }
 
-#card-box .title {
+#card-box .info {
     color: rgb(16, 16, 16);
     font-family: Work Sans;
     font-size: 28px;
@@ -93,7 +93,7 @@
     text-align: center;
 }
 
-#card-box .title .subtitle {
+#card-box .info .subtitle {
     color: rgb(16, 16, 16);
     font-family: Work Sans;
     font-size: 16px;
@@ -102,4 +102,27 @@
     letter-spacing: 0%;
     text-align: center;
     opacity: 0.6;
+}
+
+#card-box .info .title {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.card-container {
+    margin-top: 30px;
+}
+.card{
+    width: 250px;
+}
+.card .image-box{
+    width: 250px;
+}
+.card .image-box img{
+    width: 100%;
 }
