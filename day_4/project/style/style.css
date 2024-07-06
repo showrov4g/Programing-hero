@@ -10,7 +10,9 @@
      url(../assets/hero-bg.png);
     background-size: cover;
     background-position: center;
+    display:flex;
 }
-.hero .hero-container{
-
+#hero .hero-content{
+    width: 685px;
+    margin: 0 auto;
 }
