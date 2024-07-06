@@ -30,6 +30,7 @@
     letter-spacing: 0%;
     text-align: center;
     opacity: 0.8;
+    margin-bottom: 10px;
 }
 
 #hero .hero-content .title {
@@ -37,9 +38,10 @@
     font-family: Work Sans;
     font-size: 44px;
     font-weight: 700;
-    line-height: 80px;
+    line-height: 60px;
     letter-spacing: 0%;
     text-align: center;
+    margin-bottom: 14px;
 }
 
 #hero .hero-content .para {
@@ -65,5 +67,9 @@
     border-radius: 8px;
     background: rgb(82, 195, 3);
     border-radius: 8px;
-    border: none;
+    border: none; 
+    margin: 20px 0px;
+}
+.btn-content{
+    text-align: center;
 }
