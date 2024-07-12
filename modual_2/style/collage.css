@@ -8,3 +8,9 @@ img{
     gap: 5px;
     margin-bottom: 5px;
 }
+.row > div{
+    flex: 1;
+}
+.varticle_collage img{
+    height: 50%;
+}
