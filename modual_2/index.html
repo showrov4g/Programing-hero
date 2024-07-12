@@ -9,6 +9,8 @@
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             gap: 30px;
+            max-width: 1140px;
+            margin: auto;
         }
         .food{
             border: 5px solid tomato;
@@ -17,14 +19,11 @@
 
         }
         .food img{
-            width: 350px;
-            height: 275px;
+            width: 100%;
         }
-        @media screen and (max-width:576px) {
+        @media screen and (max-width: 576px){
             .container{
-                grid-template-columns: repeat(2,1fr);
-            }
-            .food{
+                grid-template-columns: repeat(1, 1fr);
                 background-color: yellow;
             }
         }
