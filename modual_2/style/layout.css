@@ -24,9 +24,11 @@
 }
 .container{
     display: grid;
+    gap: 20px;
     grid-template-areas: 
         "header header header header"
         "nav    main    main    sidebar"
         "nav    main    main    advertise"
-    ;
+        "Footer footer  footer  footer"
+        ;
 }
