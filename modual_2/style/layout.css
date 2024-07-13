@@ -1,0 +1,24 @@
+.header, .nav, .main, .sidebar, .advertise, .footer{
+    background-color: tomato;
+    border: 2px solid aqua;
+    border-radius: 5px;
+    padding: 5px;
+}
+.header{
+    grid-area: header;
+}
+.nav{
+    grid-area: nav;
+}
+.main{
+    grid-area: main;
+}
+.sidebar{
+    grid-area: sidebar;
+}
+.advertise{
+    grid-area: advertise;
+}
+.footer{
+    grid-area: footer;
+}
