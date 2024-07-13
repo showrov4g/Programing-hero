@@ -25,4 +25,7 @@ img{
     .row{
         flex-direction: column;
     }
+    .squre-collage{
+        grid-template-columns: 1fr;
+    }
 }
